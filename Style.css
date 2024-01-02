@@ -85,6 +85,7 @@ header .user img{
     border-radius: 90%;
     object-fit:inherit;
     border: .5rem solid;
+    margin-top:20px;
 }
 
 header .user .nm{
