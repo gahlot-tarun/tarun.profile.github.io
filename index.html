@@ -1,162 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tarun Gahlot - Portfolio</title>
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Optional Custom Styles -->
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f8f9fa;
-            padding-top: 50px;
-        }
-        h2.section-title {
-            font-weight: bold;
-            border-bottom: 2px solid #0d6efd;
-            display: inline-block;
-            margin-bottom: 20px;
-        }
-        ul.custom-list li {
-            margin-bottom: 8px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tarun Gahlot - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
-<!-- DETAILS SECTION -->
-<section class="Details py-5 bg-light" id="Details">
-    <div class="container">
-        <h2 class="text-center text-primary mb-4">Details About Me</h2>
-        <div class="card shadow p-4">
-            <div class="row">
-                <div class="col-md-6 mb-3">
-                    <strong>Name:</strong> Tarun Gahlot
-                </div>
-                <div class="col-md-6 mb-3">
-                    <strong>Age:</strong> 24
-                </div>
-                <div class="col-md-6 mb-3">
-                    <strong>DOB:</strong> 23/12/2000
-                </div>
-                <div class="col-md-6 mb-3">
-                    <strong>Gender:</strong> Male
-                </div>
-                <div class="col-md-6 mb-3">
-                    <strong>Email:</strong> <a href="mailto:tarungahlot155@gmail.com">tarungahlot155@gmail.com</a>
-                </div>
-                <div class="col-md-6 mb-3">
-                    <strong>Phone:</strong> <a href="tel:+917425817933">+91 7425817933</a>
-                </div>
-                <div class="col-md-6 mb-3">
-                    <strong>Languages:</strong> Hindi, English
-                </div>
-                <div class="col-12 mb-3">
-                    <strong>Address:</strong> Near Panchmukhi Hanuman Temple, Malipada, Nayapura, Kota, Rajasthan - 324001
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- EDUCATION SECTION -->
-<section class="Education py-5" id="Education">
-    <div class="container">
-        <h2 class="text-center text-primary section-title">Education</h2>
-        <div class="table-responsive mt-4">
-            <table class="table table-bordered table-striped text-center">
-                <thead class="table-primary">
-                    <tr>
-                        <th>Qualification</th>
-                        <th>Institute</th>
-                        <th>Board/University</th>
-                        <th>Score</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>B.Tech (Electrical Engineering)</td>
-                        <td>Modi Institute Of Technology, Kota</td>
-                        <td>RTU</td>
-                        <td>7.86 CGPA</td>
-                    </tr>
-                    <tr>
-                        <td>12<sup>th</sup></td>
-                        <td>Shiksha Niketan Senior Secondary School, Kota</td>
-                        <td>RBSE</td>
-                        <td>77.40%</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-</section>
-
-<!-- TECHNICAL SKILLS -->
-<section class="TechnicalSkills py-5 bg-light" id="Technical Skills">
-    <div class="container">
-        <h2 class="text-center text-primary section-title">Technical Skills</h2>
-        <ul class="custom-list mt-4">
-            <li>HTML, CSS, JavaScript, jQuery</li>
-            <li>PHP, CodeIgniter Framework</li>
-            <li>AJAX, JSON, MySQL</li>
-            <li>Node.js, Express.js</li>
-            <li>Full-Stack Development</li>
-            <li>Testing and Debugging</li>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Tarun Gahlot</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#Details">Details</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Technical">Tech Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Career">Career Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Project">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Certificates">Certificates</a></li>
         </ul>
+      </div>
     </div>
-</section>
+  </nav>
 
-<!-- CAREER SKILLS -->
-<section class="CareerSkills py-5" id="Career Skills">
-    <div class="container">
-        <h2 class="text-center text-primary section-title">Career Skills</h2>
-        <ul class="custom-list mt-4">
-            <li>Critical Thinking</li>
-            <li>Problem Solving</li>
-            <li>Fast Learner</li>
-            <li>Team Collaboration</li>
-            <li>Web Development Projects</li>
+  <header class="bg-light text-center py-5">
+    <img src="1.jpg" class="rounded-circle mb-3" alt="Profile Picture" width="120">
+    <h2>Tarun Gahlot</h2>
+    <p class="text-muted">Full Stack Developer (PHP + JS) at Saglus Info Pvt. Ltd.</p>
+  </header>
+
+  <section id="Details" class="container py-4">
+    <h3 class="mb-4">Details About Me</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <ul class="list-group">
+          <li class="list-group-item">Full Name: Tarun Gahlot</li>
+          <li class="list-group-item">Age: 22</li>
+          <li class="list-group-item">Gender: Male</li>
+          <li class="list-group-item">DOB: 23/12/2000</li>
+          <li class="list-group-item">Email: tarungahlot155@gmail.com</li>
+          <li class="list-group-item">Phone: 7425817933</li>
         </ul>
-    </div>
-</section>
-
-<!-- PROJECTS -->
-<section class="Projects py-5 bg-light" id="Project">
-    <div class="container">
-        <h2 class="text-center text-primary section-title">Projects</h2>
-        <div class="card mt-4 p-4">
-            <h5><strong>Role:</strong> Full Stack Developer at Saglus Info Pvt. Ltd.</h5>
-            <ul class="custom-list mt-3">
-                <li><strong>Template/Cover Page Editor:</strong> Tool to design professional-grade cover pages.</li>
-                <li><strong>Webpage Editor:</strong> Drag-and-drop interface for page building.</li>
-                <li><strong>Chatbot Module:</strong> Real-time website assistant.<br>
-                    <a href="https://tarun.humanizzer.com/app/chat/chatbot_popup.html" target="_blank" class="btn btn-sm btn-outline-primary mt-2">View Chatbot Demo</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-<!-- CERTIFICATES -->
-<section class="Certificates py-5" id="Certificates">
-    <div class="container">
-        <h2 class="text-center text-primary section-title">Certificates</h2>
-        <ul class="custom-list mt-4">
-            <li>Certified Full Stack Developer by KODNEST</li>
-            <li>Railway Certificate for Industrial Training</li>
-            <li>SOLAR & MATLAB</li>
-            <li>Ethical Hacking Certificate by Udemy</li>
-            <li>RS-CIT (Rajasthan State Certificate in IT)</li>
+      </div>
+      <div class="col-md-6">
+        <ul class="list-group">
+          <li class="list-group-item">Height: 176.78 cm</li>
+          <li class="list-group-item">Weight: 54 kg</li>
+          <li class="list-group-item">Languages: Hindi, English</li>
+          <li class="list-group-item">Address: Near Panchmukhi Hanuman Temple, Malipada, Nayapura</li>
+          <li class="list-group-item">City: Kota, Rajasthan (324001)</li>
         </ul>
+      </div>
     </div>
-</section>
+  </section>
 
+  <section id="Education" class="container py-4">
+    <h3 class="mb-4">Education</h3>
+    <table class="table table-bordered">
+      <thead class="table-light">
+        <tr>
+          <th>Course</th><th>Institute</th><th>Board/University</th><th>Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>B.Tech (Electrical Engg.)</td><td>Modi Institute Of Technology, Kota</td><td>RTU</td><td>7.86 CGPA</td></tr>
+        <tr><td>12<sup>th</sup></td><td>Shiksha Niketan Sr. Sec. School, Kota</td><td>RBSE</td><td>77.40%</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="Technical" class="container py-4">
+    <h3 class="mb-4">Technical Skills</h3>
+    <ul class="list-group">
+      <li class="list-group-item">HTML, CSS, JavaScript, jQuery</li>
+      <li class="list-group-item">PHP, CodeIgniter</li>
+      <li class="list-group-item">AJAX, JSON, MySQL</li>
+      <li class="list-group-item">Node.js, Express.js</li>
+      <li class="list-group-item">Testing and Debugging</li>
+    </ul>
+  </section>
+
+  <section id="Career" class="container py-4">
+    <h3 class="mb-4">Career Skills</h3>
+    <ul class="list-group">
+      <li class="list-group-item">Critical Thinking</li>
+      <li class="list-group-item">Problem Solving</li>
+      <li class="list-group-item">Fast Learner</li>
+      <li class="list-group-item">Team Collaboration</li>
+    </ul>
+  </section>
+
+  <section id="Project" class="container py-4">
+    <h3 class="mb-4">Projects</h3>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Web Projects at Saglus Info Pvt. Ltd.</h5>
+        <p><strong>Role:</strong> Full Stack Developer</p>
+        <ul>
+          <li><strong>Template Editor:</strong> Design professional cover pages.</li>
+          <li><strong>Webpage Editor:</strong> Drag-and-drop webpage builder.</li>
+          <li><strong>Chatbot Module:</strong> Website chatbot. <a href="https://tarun.humanizzer.com/app/chat/chatbot_popup.html" class="btn btn-sm btn-warning ms-2" target="_blank">Demo</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="Certificates" class="container py-4">
+    <h3 class="mb-4">Certificates</h3>
+    <ul class="list-group">
+      <li class="list-group-item">Certified Full Stack Developer by KODNEST</li>
+      <li class="list-group-item">Railway Certificate for Industrial Training</li>
+      <li class="list-group-item">SOLAR & MATLAB</li>
+      <li class="list-group-item">Ethical Hacking Certificate by Udemy</li>
+      <li class="list-group-item">RS-CIT (Rajasthan State Certificate in IT)</li>
+    </ul>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
